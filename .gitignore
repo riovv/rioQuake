@@ -1,0 +1,25 @@
+# Don't distribute this file
+id1/pak1.pak
+
+# Quakeworld authentication files
+*.lnk
+*.apikey
+
+# ezQuake - get the latest
+ezquake*.exe
+ezquake*.AppImage
+ezquake*.dmg
+ezquake/configs/*.bak
+ezquake/.ezquake_history
+ezquake/sb/**
+
+# Demos, screenshots
+qw/demos/*
+qw/screenshots/*
+
+# Maps - keep specific ones
+qw/maps/*
+!qw/maps/aerowalk.bsp
+!qw/maps/povdmm4.bsp
+!qw/maps/maphub_v2.bsp
+
