@@ -13,9 +13,10 @@ ezquake/configs/*.bak
 ezquake/.ezquake_history
 ezquake/sb/**
 
-# Demos, screenshots
+# Demos, screenshots, logs
 qw/demos/*
 qw/screenshots/*
+*.log
 
 # Maps - keep specific ones
 qw/maps/*
